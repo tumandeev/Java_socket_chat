@@ -1,0 +1,1 @@
+Для запуска проекта на локальной машине нужна библиотека [JavaFX](https://download2.gluonhq.com/openjfx/19/openjfx-19_linux-x64_bin-sdk.zip)
