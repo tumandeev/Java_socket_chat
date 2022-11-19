@@ -1,8 +1,9 @@
 package client.controllers;
 
+import client.ControllerInterface;
 import client.RunMessenger;
 import javafx.fxml.FXML;
-import javafx.fxml.Initializable;
+
 import javafx.scene.control.CheckBox;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
@@ -10,7 +11,7 @@ import javafx.scene.control.TextField;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-public class LoginController implements Initializable {
+public class LoginController implements ControllerInterface {
     @FXML
     private Label welcomeText;
 
